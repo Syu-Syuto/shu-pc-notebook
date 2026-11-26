@@ -9,6 +9,11 @@ const categories = [
         "おすすめ PC スペック Windows Mac メモリ RAM SSD CPU 予算 重さ バッテリー 持ち運び ノートPC 何を買う 機種 学生向け ノートパソコン 大学用PC 大学生パソコン 何を買えばいい パソコン選び パソコンを選びたい 生協パソコン 生協PC コスパ 軽量 14インチ USB-C HDMI Windows11 PassMark Mark 価格.com 価格コム 価格ドットコム 12万円 10万円 情報系 美術 マウス"
       ],
       [
+        "ipad",
+        "iPad購入のすゝめ",
+        "iPad アイパッド あいぱっど タブレット 大学 大学生 新入生 購入 買う 必要 おすすめ すすめ メリット iPadAir iPad Air エアー 第5世代 第五世代 256GB M1 BackMarket バックマーケット 中古 整備済み 授業 1コマ 2コマ 持ち運び 軽い パソコン ノートPC 充電 画面 資料 配布資料 ノート ノートテイク 手書き 楽譜 音楽科 ゲーム デイリー 原神 スターレイル リンバス CAD レタッチ"
+      ],
+      [
         "purchase-check",
         "パソコンを注文する前のチェックリスト",
         "大学 推奨 必須 条件 生協 保証 修理 手持ち BYOD 買い替え 購入前 準備 既に持っている 注文前 買う前 購入前チェック チェックリスト 買い替え必要 高校のPC 手持ちのパソコン 学校指定 推奨スペック 必携PC 納期 配送 到着日 セットアップ日 保障 落下 水濡れ 代替機 Office付き 二重購入 型番 同じ機種 スペック違い"
@@ -222,4 +227,4 @@ const categories = [
   ]
 ];
 
-const publishedArticles = { 'choose-pc': 'choose-pc.html', 'purchase-check': 'purchase-check.html', chrome: 'chrome.html', onedrive: 'onedrive.html', mail: 'mail.html', apps: 'apps.html', office: 'office.html', downloads: 'downloads.html', 'file-basics': 'file-basics.html', formats: 'formats.html', 'class-materials': 'class-materials.html', 'class-onedrive': 'class-onedrive.html', 'online-class': 'online-class.html', 'audio-video': 'audio-video.html', 'screenshot': 'screenshot.html', classroom: 'classroom.html', word: 'word.html', pdf: 'pdf.html', powerpoint: 'powerpoint.html', excel: 'excel.html', 'assignment-check': 'assignment-check.html', submit: 'submit.html', collaboration: 'collaboration.html', 'login-help': 'login-help.html', 'sync-help': 'sync-help.html', 'restore': 'restore.html', "windows-update": "windows-update.html", "taskbar-left": "taskbar-left.html", "screen-sleep": "screen-sleep.html", "caps-lock": "caps-lock.html", "function-keys": "function-keys.html", shortcuts: 'shortcuts.html', onenote: 'onenote.html', "syllabus": "syllabus.html", "usb-c": "usb-c.html", "teacher-email": "teacher-email.html", 'generative-ai': 'generative-ai.html' };
+const publishedArticles = { ipad: 'ipad.html', 'choose-pc': 'choose-pc.html', 'purchase-check': 'purchase-check.html', chrome: 'chrome.html', onedrive: 'onedrive.html', mail: 'mail.html', apps: 'apps.html', office: 'office.html', downloads: 'downloads.html', 'file-basics': 'file-basics.html', formats: 'formats.html', 'class-materials': 'class-materials.html', 'class-onedrive': 'class-onedrive.html', 'online-class': 'online-class.html', 'audio-video': 'audio-video.html', 'screenshot': 'screenshot.html', classroom: 'classroom.html', word: 'word.html', pdf: 'pdf.html', powerpoint: 'powerpoint.html', excel: 'excel.html', 'assignment-check': 'assignment-check.html', submit: 'submit.html', collaboration: 'collaboration.html', 'login-help': 'login-help.html', 'sync-help': 'sync-help.html', 'restore': 'restore.html', "windows-update": "windows-update.html", "taskbar-left": "taskbar-left.html", "screen-sleep": "screen-sleep.html", "caps-lock": "caps-lock.html", "function-keys": "function-keys.html", shortcuts: 'shortcuts.html', onenote: 'onenote.html', "syllabus": "syllabus.html", "usb-c": "usb-c.html", "teacher-email": "teacher-email.html", 'generative-ai': 'generative-ai.html' };
