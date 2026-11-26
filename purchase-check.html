@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>パソコンを注文する前のチェックリスト | しゅうのPC手帳</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="article.css">
+  <script src="purchase-check.js" defer></script>
+</head>
+<body>
+  <header class="mast"><p class="site-name"><a href="index.html">しゅうのPC手帳</a></p></header>
+  <main class="article-main">
+    <p><a href="index.html#choose-pc">ガイドの目次へ戻る</a></p>
+    <article>
+      <h1>パソコンを注文する前のチェックリスト</h1>
+      <p>買いたいパソコンが決まったら、注文する前にこの7項目を確認してみてください。</p>
+      <p id="check-progress" role="status" hidden></p>
+      <ul class="purchase-checklist">
+        <li>
+          <label>
+            <input type="checkbox" name="requirements" aria-describedby="requirements-description">
+            <strong>大学の要件を満たしているか</strong>
+          </label>
+          <p id="requirements-description">大学からの案内に記載されているスペックや要件を、購入予定のPCの仕様と照らし合わせる。</p>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="need" aria-describedby="need-description">
+            <strong>本当に買う必要があるか</strong>
+          </label>
+          <p id="need-description">高校で使っていたPCが大学の要件を満たしていて、授業や課題にも使えそうなら、そのまま使うのもあり。</p>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="configuration" aria-describedby="configuration-description">
+            <strong>注文する構成は合っているか</strong>
+          </label>
+          <p id="configuration-description"><strong>同じ機種名でも、メモリやSSDなどの構成が違うことがあります！</strong> 注文画面で、選んだ構成をもう一度確認する。</p>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="office" aria-describedby="office-description">
+            <strong>Officeを二重で買うことにならないか</strong>
+          </label>
+          <p id="office-description">大学のライセンスでOfficeを使えるか確認する。セールなどでOffice付きのモデルのほうが安いこともあるので、最後は支払総額で比べる。</p>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="portability" aria-describedby="portability-description">
+            <strong>持ち歩けそうか</strong>
+          </label>
+          <p id="portability-description">PC本体と充電器を含めた重さを見て、普段使うカバンに入るか確認する。</p>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="delivery" aria-describedby="delivery-description">
+            <strong>大学のセットアップ日までに届くか</strong>
+          </label>
+          <p id="delivery-description">注文画面の<strong>到着予定日</strong>を確認する。届いてから開封し、動作を確かめる時間も見込んでおく。</p>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="warranty" aria-describedby="warranty-description">
+            <strong>保証の内容はどうなっているか</strong>
+          </label>
+          <p id="warranty-description">保証期間、故障や落下・水濡れが対象になるか、修理の窓口、修理中に代替機を借りられるかを確認する。</p>
+        </li>
+      </ul>
+      <p><a href="choose-pc.html">大学用PCの選び方へ戻る</a></p>
+    </article>
+  </main>
+</body>
+</html>

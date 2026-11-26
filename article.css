@@ -1,0 +1,23 @@
+.article-main { max-width: 54rem; margin: 0 auto; }
+.article-main article { line-height: 1.8; overflow-wrap: anywhere; }
+.article-main h1 { font-size: clamp(1.7rem, 4vw, 2.25rem); line-height: 1.3; margin-bottom: .65rem; }
+.article-main h2 { margin: 2rem 0 .75rem; padding: .4rem .65rem; border-left: .25rem solid #1a2e52; background: #dedfe3; font-size: 1.3rem; line-height: 1.45; }
+.article-main h3 { margin: 1.3rem 0 .35rem; font-size: 1.1rem; }
+.article-main .article-toc { display: block; border: 1px solid #59667c; background: #f1f2f4; }
+.article-main .article-toc a { color: #000092; padding: 0; }
+.article-main .article-toc a:visited { color: #521779; }
+.article-main .article-toc ol { list-style: none; padding-left: .45rem; }
+.article-main table { width: 100%; border-collapse: collapse; margin: .65rem 0 1rem; }
+.article-main th, .article-main td { border: 1px solid #59667c; padding: .4rem .65rem; text-align: left; vertical-align: top; }
+.article-main th { background: #f1f2f4; }
+.article-main th:first-child { width: 28%; }
+.article-main .folder-tree { padding: .7rem; overflow-x: auto; border: 1px solid #b8bfca; background: #f1f2f4; }
+.article-main .article-figure { margin: 1rem 0; }
+.article-main .article-figure img { display: block; max-width: 100%; height: auto; border: 1px solid #b8bfca; }
+.article-main .article-figure figcaption { margin-top: .35rem; color: #394559; font-size: .9rem; }
+.purchase-checklist { list-style: none; padding: 0; }
+.purchase-checklist li { border-top: 1px solid #b8bfca; padding: .45rem .25rem; }
+.purchase-checklist li:last-child { border-bottom: 1px solid #b8bfca; }
+.purchase-checklist label { display: flex; gap: .65rem; align-items: center; min-height: 2.75rem; cursor: pointer; }
+.purchase-checklist input { width: 1.2rem; height: 1.2rem; flex: none; margin: 0; accent-color: #1a2e52; }
+.purchase-checklist p { margin: 0 0 .4rem 1.85rem; }
