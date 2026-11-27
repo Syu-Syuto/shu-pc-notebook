@@ -116,6 +116,11 @@ const categories = [
         "LMS 授業ページ 教材 レジュメ プリント 講義資料 お知らせ 連絡 ダウンロード ウェブクラス 学芸ポータル 授業の連絡 休講のお知らせ 教員からのお知らせ 教材ページ 配布プリント 授業資料どこ 資料が見つからない WebClass通知 通知が来ない Teamsの投稿 コース ライブキャンパス 授業のお知らせどこ 先生の連絡どこ 教材が見つからない 通知が来ないWebClass 授業のコース"
       ],
       [
+        "printing",
+        "大学で印刷するには？ コンビニと生協のプリンター",
+        "印刷 プリント プリンター コピー コピー機 複合機 マルチコピー 大学 学内 学芸大 生協 購買 コンビニ セブンイレブン ローソン ファミマ ファミリーマート PrintSmash プリントスマッシュ ネットワークプリント ネットプリント netprint PDF 紙 A4 白黒 カラー スマホ iPad レポート 授業資料 印刷したい どこで印刷 紙で提出"
+      ],
+      [
         "class-onedrive",
         "配布資料をOneDriveの授業別フォルダーに保存する",
         "ワンドライブ 教材 講義 レジュメ 整理 分類 授業ごと PDF 配布資料を保存 授業資料を保存 レジュメを整理 プリント保存 WebClassからOneDrive Teamsの資料を保存 授業ごとに分ける 授業別フォルダ ダウンロードからOneDrive 資料を移す 第1回配布資料 どの授業の資料 授業ファイル 教科ごとに整理 講義資料をワンドライブに移す 配布PDFを保存 わんどらいぶに資料を入れる 授業の資料をまとめる"
@@ -232,4 +237,4 @@ const categories = [
   ]
 ];
 
-const publishedArticles = { ipad: 'ipad.html', 'ipad-setup': 'ipad-setup.html', 'choose-pc': 'choose-pc.html', 'purchase-check': 'purchase-check.html', chrome: 'chrome.html', onedrive: 'onedrive.html', mail: 'mail.html', apps: 'apps.html', office: 'office.html', downloads: 'downloads.html', 'file-basics': 'file-basics.html', formats: 'formats.html', 'class-materials': 'class-materials.html', 'class-onedrive': 'class-onedrive.html', 'online-class': 'online-class.html', 'audio-video': 'audio-video.html', 'screenshot': 'screenshot.html', classroom: 'classroom.html', word: 'word.html', pdf: 'pdf.html', powerpoint: 'powerpoint.html', excel: 'excel.html', 'assignment-check': 'assignment-check.html', submit: 'submit.html', collaboration: 'collaboration.html', 'login-help': 'login-help.html', 'sync-help': 'sync-help.html', 'restore': 'restore.html', "windows-update": "windows-update.html", "taskbar-left": "taskbar-left.html", "screen-sleep": "screen-sleep.html", "caps-lock": "caps-lock.html", "function-keys": "function-keys.html", shortcuts: 'shortcuts.html', onenote: 'onenote.html', "syllabus": "syllabus.html", "usb-c": "usb-c.html", "teacher-email": "teacher-email.html", 'generative-ai': 'generative-ai.html' };
+const publishedArticles = { printing: 'printing.html', ipad: 'ipad.html', 'ipad-setup': 'ipad-setup.html', 'choose-pc': 'choose-pc.html', 'purchase-check': 'purchase-check.html', chrome: 'chrome.html', onedrive: 'onedrive.html', mail: 'mail.html', apps: 'apps.html', office: 'office.html', downloads: 'downloads.html', 'file-basics': 'file-basics.html', formats: 'formats.html', 'class-materials': 'class-materials.html', 'class-onedrive': 'class-onedrive.html', 'online-class': 'online-class.html', 'audio-video': 'audio-video.html', 'screenshot': 'screenshot.html', classroom: 'classroom.html', word: 'word.html', pdf: 'pdf.html', powerpoint: 'powerpoint.html', excel: 'excel.html', 'assignment-check': 'assignment-check.html', submit: 'submit.html', collaboration: 'collaboration.html', 'login-help': 'login-help.html', 'sync-help': 'sync-help.html', 'restore': 'restore.html', "windows-update": "windows-update.html", "taskbar-left": "taskbar-left.html", "screen-sleep": "screen-sleep.html", "caps-lock": "caps-lock.html", "function-keys": "function-keys.html", shortcuts: 'shortcuts.html', onenote: 'onenote.html', "syllabus": "syllabus.html", "usb-c": "usb-c.html", "teacher-email": "teacher-email.html", 'generative-ai': 'generative-ai.html' };
