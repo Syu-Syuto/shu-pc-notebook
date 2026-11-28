@@ -21,3 +21,10 @@
 .purchase-checklist label { display: flex; gap: .65rem; align-items: center; min-height: 2.75rem; cursor: pointer; }
 .purchase-checklist input { width: 1.2rem; height: 1.2rem; flex: none; margin: 0; accent-color: #1a2e52; }
 .purchase-checklist p { margin: 0 0 .4rem 1.85rem; }
+
+.troubleshooting-note {
+  margin-block: 1rem 1.5rem;
+  padding: 0.2rem 1rem;
+  border-inline-start: 4px solid #1a2e52;
+  background: #f1f2f4;
+}

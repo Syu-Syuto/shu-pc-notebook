@@ -1,5 +1,71 @@
 const categories = [
   [
+    "トラブル",
+    "トラブルシューティング",
+    [
+      [
+        "bitlocker-recovery",
+        "起動時にBitLockerの回復キーを聞かれた",
+        "青い画面 48桁 暗号化 キーID"
+      ],
+      [
+        "recovery-usb",
+        "Windowsが起動しなくなる前に回復用USBを作る",
+        "回復ドライブ リカバリ USB 作成 バックアップ"
+      ],
+      [
+        "power-no-response",
+        "電源ボタンを押しても反応しない",
+        "充電ランプ 電源が入らない 起動しない 無反応"
+      ],
+      [
+        "black-screen",
+        "電源は入るのに画面が真っ暗",
+        "黒い画面 ブラックスクリーン マウスカーソル 画面が映らない"
+      ],
+      [
+        "startup-loop",
+        "Windowsのロゴや「自動修復」から先に進まない",
+        "自動修復ループ 起動ループ 再起動 ロゴで止まる"
+      ],
+      [
+        "update-trouble",
+        "Windows Updateのあとから調子が悪い",
+        "更新プログラム KB アップデート不具合 戻す"
+      ],
+      [
+        "windows-pin",
+        "PINが使えなくてWindowsに入れない",
+        "Windows Hello PIN 忘れた サインイン パスワード"
+      ],
+      [
+        "wifi-trouble",
+        "Wi-Fiにつながらない・つながってもネットが使えない",
+        "無線 wifi インターネットなし 学内 接続"
+      ],
+      [
+        "projector-trouble",
+        "教室のプロジェクターに画面が映らない",
+        "HDMI プロジェクター 外部モニター 信号なし WinP 発表"
+      ],
+      [
+        "external-drive",
+        "USBメモリや外付けSSDが認識されない",
+        "USB 外付け ドライブ 表示されない フォーマット ディスクの管理"
+      ],
+      [
+        "usb-c-no-charge",
+        "USB-Cを挿しても充電されない",
+        "USB PD 充電器 低速充電 Type-C 電力 ケーブル"
+      ],
+      [
+        "disk-space",
+        "Cドライブがいっぱいで保存や更新ができない",
+        "容量不足 ストレージ 空き領域 Cドライブ 一時ファイル"
+      ]
+    ]
+  ],
+  [
     "準備",
     "入学前・入学直後の準備",
     [
@@ -237,4 +303,4 @@ const categories = [
   ]
 ];
 
-const publishedArticles = { printing: 'printing.html', ipad: 'ipad.html', 'ipad-setup': 'ipad-setup.html', 'choose-pc': 'choose-pc.html', 'purchase-check': 'purchase-check.html', chrome: 'chrome.html', onedrive: 'onedrive.html', mail: 'mail.html', apps: 'apps.html', office: 'office.html', downloads: 'downloads.html', 'file-basics': 'file-basics.html', formats: 'formats.html', 'class-materials': 'class-materials.html', 'class-onedrive': 'class-onedrive.html', 'online-class': 'online-class.html', 'audio-video': 'audio-video.html', 'screenshot': 'screenshot.html', classroom: 'classroom.html', word: 'word.html', pdf: 'pdf.html', powerpoint: 'powerpoint.html', excel: 'excel.html', 'assignment-check': 'assignment-check.html', submit: 'submit.html', collaboration: 'collaboration.html', 'login-help': 'login-help.html', 'sync-help': 'sync-help.html', 'restore': 'restore.html', "windows-update": "windows-update.html", "taskbar-left": "taskbar-left.html", "screen-sleep": "screen-sleep.html", "caps-lock": "caps-lock.html", "function-keys": "function-keys.html", shortcuts: 'shortcuts.html', onenote: 'onenote.html', "syllabus": "syllabus.html", "usb-c": "usb-c.html", "teacher-email": "teacher-email.html", 'generative-ai': 'generative-ai.html' };
+const publishedArticles = {"bitlocker-recovery": "bitlocker-recovery.html", "recovery-usb": "recovery-usb.html", "power-no-response": "power-no-response.html", "black-screen": "black-screen.html", "startup-loop": "startup-loop.html", "update-trouble": "update-trouble.html", "windows-pin": "windows-pin.html", "wifi-trouble": "wifi-trouble.html", "projector-trouble": "projector-trouble.html", "external-drive": "external-drive.html", "usb-c-no-charge": "usb-c-no-charge.html", "disk-space": "disk-space.html",  printing: 'printing.html', ipad: 'ipad.html', 'ipad-setup': 'ipad-setup.html', 'choose-pc': 'choose-pc.html', 'purchase-check': 'purchase-check.html', chrome: 'chrome.html', onedrive: 'onedrive.html', mail: 'mail.html', apps: 'apps.html', office: 'office.html', downloads: 'downloads.html', 'file-basics': 'file-basics.html', formats: 'formats.html', 'class-materials': 'class-materials.html', 'class-onedrive': 'class-onedrive.html', 'online-class': 'online-class.html', 'audio-video': 'audio-video.html', 'screenshot': 'screenshot.html', classroom: 'classroom.html', word: 'word.html', pdf: 'pdf.html', powerpoint: 'powerpoint.html', excel: 'excel.html', 'assignment-check': 'assignment-check.html', submit: 'submit.html', collaboration: 'collaboration.html', 'login-help': 'login-help.html', 'sync-help': 'sync-help.html', 'restore': 'restore.html', "windows-update": "windows-update.html", "taskbar-left": "taskbar-left.html", "screen-sleep": "screen-sleep.html", "caps-lock": "caps-lock.html", "function-keys": "function-keys.html", shortcuts: 'shortcuts.html', onenote: 'onenote.html', "syllabus": "syllabus.html", "usb-c": "usb-c.html", "teacher-email": "teacher-email.html", 'generative-ai': 'generative-ai.html' };
